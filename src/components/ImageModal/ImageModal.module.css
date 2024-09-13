@@ -1,0 +1,25 @@
+.modal {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.closeButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
